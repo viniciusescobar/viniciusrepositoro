@@ -1,3 +1,47 @@
 body{
     margin: 0;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+h1, h2{
+    color: red;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border: dashed red;
+}
+nav{
+    margin-top: 40px;
+}
+aside{
+    position: absolute;
+    left: 0;
+    height: 70vh;
+    width: 300px;
+    background-color: grey;
+}
+
+section{
+    position: relative;
+    left: 300px;
+    max-width: 60vw;
+}
+
+footer{
+    position: absolute;
+    left: 300px;
+}
+
+button{
+    border: solid red 1px;
+    background-color: grey;
+    text-transform: uppercase;
+    border-radius: 10%;
+    padding: 10px;
 }
